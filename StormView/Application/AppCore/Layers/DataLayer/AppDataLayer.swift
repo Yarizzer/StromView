@@ -22,4 +22,6 @@ extension AppDataLayer: AppDataLayerType {
         #warning("remove when ready session handler")
         print("\(#function)")
     }
+    
+    var imageData: [String] { ["nssl0033", "nssl0034", "nssl0041", "nssl0042", "nssl0043", "nssl0045", "nssl0046", "nssl0049", "nssl0051", "nssl0091"] }
 }

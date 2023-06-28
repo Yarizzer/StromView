@@ -17,7 +17,7 @@ protocol MainSceneViewModelType {
 
 class MainSceneViewModel {
     init() {
-        self.data = Constants.dataValues
+        self.data = AppCore.shared.dataLayer.imageData
     }
     
     var selectedImageDidChanged: Publisher<Bool?> = Publisher(nil)
@@ -50,7 +50,5 @@ extension MainSceneViewModel {
     private struct Constants {
         static let numberOfSections: Int = 1
         static let rowHeightValue: Float = 160.0
-        
-        static let dataValues = ["nssl0033", "nssl0034", "nssl0041", "nssl0042", "nssl0043", "nssl0045", "nssl0046", "nssl0049", "nssl0051", "nssl0091"]
     }
 }
