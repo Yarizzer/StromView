@@ -28,9 +28,6 @@ class MainSceneTableCellView: NSTableCellView {
     }
     
     private func setupView() {
-//        thumbImage.layer?.borderWidth = AppCore.shared.uiLayer.style.layerBorderWidth
-//        thumbImage.layer?.borderColor = AppCore.shared.uiLayer.style.colorWhite.cgColor
-        
         cellTitle.font = AppCore.shared.uiLayer.style.labelTitleFontSmall
         cellTitle.textColor = AppCore.shared.uiLayer.style.colorLightGray
     }
