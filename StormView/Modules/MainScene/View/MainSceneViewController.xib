@@ -21,7 +21,7 @@
                 <splitView arrangesAllSubviews="NO" dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ta-6z-Vi3">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
                     <subviews>
-                        <customView misplaced="YES" id="INi-pr-2QC">
+                        <customView fixedFrame="YES" id="INi-pr-2QC">
                             <rect key="frame" x="0.0" y="0.0" width="236" height="272"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
@@ -85,16 +85,13 @@
                                     </scroller>
                                 </scrollView>
                             </subviews>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="150" id="Czn-KA-jrD"/>
-                            </constraints>
                         </customView>
                         <customView misplaced="YES" id="gh0-kv-1Go">
                             <rect key="frame" x="246" y="0.0" width="234" height="272"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hNo-mR-Qkj">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="272"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="272"/>
                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="WaQ-hO-6WQ"/>
                                 </imageView>
                             </subviews>

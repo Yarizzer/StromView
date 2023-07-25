@@ -17,7 +17,7 @@ class MainSceneTableCellView: NSTableCellView {
     }
     
     func setup(with model: MainSceneTableCellViewModelType) {
-        self.cellTitle.title = model.cellTitle
+        self.cellTitle.stringValue = model.cellTitle
         
         guard let image = NSImage(named: model.cellTitle) else { return }
         
@@ -33,7 +33,7 @@ class MainSceneTableCellView: NSTableCellView {
     }
     
     @IBOutlet private weak var thumbImage: NSImageView!
-    @IBOutlet private weak var cellTitle: NSTextFieldCell!
+    @IBOutlet private weak var cellTitle: NSTextField!
 }
 
 extension MainSceneTableCellView: NibLoadableView { }

@@ -37,8 +37,7 @@
                 <constraint firstItem="giY-NI-cpQ" firstAttribute="height" secondItem="Si8-3y-dWL" secondAttribute="height" multiplier="3:4" id="us8-20-K85"/>
             </constraints>
             <connections>
-                <outlet property="cellTextField" destination="xie-BE-JPS" id="LFd-qx-uME"/>
-                <outlet property="cellTitle" destination="0YF-oI-nsY" id="Iw7-uX-5dC"/>
+                <outlet property="cellTitle" destination="xie-BE-JPS" id="1pG-az-7Xg"/>
                 <outlet property="thumbImage" destination="giY-NI-cpQ" id="eDJ-FZ-9M3"/>
             </connections>
             <point key="canvasLocation" x="88" y="-11.5"/>
