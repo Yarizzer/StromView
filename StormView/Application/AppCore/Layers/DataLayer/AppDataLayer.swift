@@ -5,9 +5,7 @@
 //  Created by Yaroslav Abaturov on 21.06.2023.
 //
 
-class AppDataLayer {
-  
-}
+class AppDataLayer { }
 
 extension AppDataLayer: AppDataLayerType {
   func prepareSession() {

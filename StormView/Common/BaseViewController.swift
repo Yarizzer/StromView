@@ -8,9 +8,9 @@
 import Cocoa
 
 class BaseViewController<InteractorT>: NSViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-    var interactor: InteractorT?
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
+  
+  var interactor: InteractorT?
 }

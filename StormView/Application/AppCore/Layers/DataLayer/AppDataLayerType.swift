@@ -6,9 +6,9 @@
 //
 
 protocol AppDataLayerType {
-    func prepareSession()
-    func openSession()
-    func closeSession()
-    
-    var imageData: [String] { get }
+  func prepareSession()
+  func openSession()
+  func closeSession()
+  
+  var imageData: [String] { get }
 }

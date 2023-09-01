@@ -8,13 +8,13 @@
 import Cocoa
 
 protocol NibLoadableView: AnyObject {
-    static var nibName: String { get }
+  static var nibName: String { get }
 }
 
 extension NibLoadableView where Self: NSView {
-    static var nibName: String { String(describing: self) }
+  static var nibName: String { String(describing: self) }
 }
 
 extension NibLoadableView where Self: NSViewController {
-    static var nibName: String { String(describing: self) }
+  static var nibName: String { String(describing: self) }
 }

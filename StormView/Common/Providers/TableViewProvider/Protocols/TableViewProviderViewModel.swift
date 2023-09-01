@@ -6,8 +6,8 @@
 //
 
 protocol TableViewProviderViewModel {
-    var numberOfTableSections: Int { get }
-    var numberOfRows: Int { get }
-    
-    func heightForRow(atIndex index: Int) -> Float
+  var numberOfTableSections: Int { get }
+  var numberOfRows: Int { get }
+  
+  func heightForRow(atIndex index: Int) -> Float
 }

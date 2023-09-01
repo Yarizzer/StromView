@@ -6,15 +6,15 @@
 //
 
 protocol AppCoreSessionType {
-    func prepareSession()
-    func openSession()
-    func closeSession()
+  func prepareSession()
+  func openSession()
+  func closeSession()
 }
 
 protocol AppCoreDataLayerType {
-    var dataLayer: AppDataLayerType { get }
+  var dataLayer: AppDataLayerType { get }
 }
 
 protocol AppCoreUILayerType {
-    var uiLayer: AppUILayerType { get }
+  var uiLayer: AppUILayerType { get }
 }
