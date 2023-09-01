@@ -6,19 +6,19 @@
 //
 
 protocol MainSceneInteractorServiceType {
-    func selectImage(with index: Int)
+  func selectImage(with index: Int)
 }
 
 class MainSceneInteractorService {
-    init(with model: MainSceneViewModelType) {
-        self.model = model
-    }
-    
-    private let model: MainSceneViewModelType
+  init(with model: MainSceneViewModelType) {
+    self.model = model
+  }
+  
+  private let model: MainSceneViewModelType
 }
 
 extension MainSceneInteractorService: MainSceneInteractorServiceType {
-    func selectImage(with index: Int) {
-        model.selectImage(with: index)
-    }
+  func selectImage(with index: Int) {
+    model.selectImage(with: index)
+  }
 }

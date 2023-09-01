@@ -6,12 +6,12 @@
 //
 
 protocol MainSceneInteractable {
-    func makeRequest(requestType: MainSceneInteractorRequest.RequestType)
+  func makeRequest(requestType: MainSceneInteractorRequest.RequestType)
 }
 
 struct MainSceneInteractorRequest {
-    enum RequestType {
-        case initial
-        case selectImage(withIndex: Int)
-    }
+  enum RequestType {
+    case initial
+    case selectImage(withIndex: Int)
+  }
 }

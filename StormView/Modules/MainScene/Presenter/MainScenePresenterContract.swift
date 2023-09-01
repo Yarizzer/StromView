@@ -6,12 +6,12 @@
 //
 
 protocol MainScenePresentable {
-    func response(responseType: MainScenePresenterResponse.MainSceneResponseType)
+  func response(responseType: MainScenePresenterResponse.MainSceneResponseType)
 }
 
 struct MainScenePresenterResponse {
-    enum MainSceneResponseType {
-        case initial
-        case drainView
-    }
+  enum MainSceneResponseType {
+    case initial
+    case drainView
+  }
 }

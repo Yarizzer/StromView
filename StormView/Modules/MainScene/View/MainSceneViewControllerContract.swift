@@ -6,13 +6,13 @@
 //
 
 protocol MainSceneViewControllerType {
-    func update(viewModelDataType: MainSceneViewControllerViewModel.ViewModelDataType)
+  func update(viewModelDataType: MainSceneViewControllerViewModel.ViewModelDataType)
 }
 
 struct MainSceneViewControllerViewModel {
-    enum ViewModelDataType {
-        case initial(with: MainSceneViewModelType)
-        case setupProvider(with: MainSceneViewModelType)
-        case updateImage(with: MainSceneViewModelType?)
-    }
+  enum ViewModelDataType {
+    case initial(with: MainSceneViewModelType)
+    case setupProvider(with: MainSceneViewModelType)
+    case updateImage(with: MainSceneViewModelType?)
+  }
 }

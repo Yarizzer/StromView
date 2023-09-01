@@ -6,17 +6,17 @@
 //
 
 protocol MainSceneTableCellViewModelType {
-    var cellTitle: String { get }
+  var cellTitle: String { get }
 }
 
 class MainSceneTableCellViewModel {
-    init(with data: String) {
-        self.data = data
-    }
-    
-    private var data: String
+  init(with data: String) {
+    self.data = data
+  }
+  
+  private var data: String
 }
 
 extension MainSceneTableCellViewModel: MainSceneTableCellViewModelType {
-    var cellTitle: String { data }
+  var cellTitle: String { data }
 }
