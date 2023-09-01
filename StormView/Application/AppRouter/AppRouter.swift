@@ -8,11 +8,11 @@
 import Cocoa
 
 protocol AppRoutable {
-    func getInitialScene() -> NSViewController
+  func getInitialScene() -> NSViewController
 }
 
 class AppRouter { }
 
 extension AppRouter: AppRoutable {
-    func getInitialScene() -> NSViewController { MainSceneRouter.assembly() }
+  func getInitialScene() -> NSViewController { MainSceneRouter.assembly() }
 }

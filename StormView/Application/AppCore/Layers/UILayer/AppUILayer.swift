@@ -6,13 +6,13 @@
 //
 
 class AppUILayer {
-    init() {
-        self.styleWorker = AppUILayerStyleWorker()
-    }
-    
-    private let styleWorker: AppUILayerStyleWorkerType
+  init() {
+    self.styleWorker = AppUILayerStyleWorker()
+  }
+  
+  private let styleWorker: AppUILayerStyleWorkerType
 }
 
 extension AppUILayer: AppUILayerType {
-    var style: AppUILayerStyleWorkerType { styleWorker }
+  var style: AppUILayerStyleWorkerType { styleWorker }
 }

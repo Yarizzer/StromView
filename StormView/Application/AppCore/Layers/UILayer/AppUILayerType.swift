@@ -6,5 +6,5 @@
 //
 
 protocol AppUILayerType {
-    var style: AppUILayerStyleWorkerType { get }
+  var style: AppUILayerStyleWorkerType { get }
 }

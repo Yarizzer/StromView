@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7125944F2AA24AB000B1F092 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7125944E2AA24AB000B1F092 /* Logger.swift */; };
 		716522DF2A43077F00DB4966 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716522DE2A43077F00DB4966 /* AppRouter.swift */; };
 		716522E32A4307C700DB4966 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716522E22A4307C700DB4966 /* BaseViewController.swift */; };
 		716522E52A4307E200DB4966 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716522E42A4307E200DB4966 /* NibLoadableView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7125944E2AA24AB000B1F092 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		716522DE2A43077F00DB4966 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		716522E22A4307C700DB4966 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		716522E42A4307E200DB4966 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7125944D2AA24A9700B1F092 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7125944E2AA24AB000B1F092 /* Logger.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		716522D92A43070A00DB4966 /* MainMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +132,7 @@
 				716522DD2A43076E00DB4966 /* AppRouter */,
 				716522DB2A43072800DB4966 /* AppDelegate */,
 				7165231D2A43167600DB4966 /* AppCore */,
+				7125944D2AA24A9700B1F092 /* Utilities */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -477,6 +488,7 @@
 				7165231F2A43168900DB4966 /* AppCore.swift in Sources */,
 				716523182A43157600DB4966 /* MainSceneTableCellViewModel.swift in Sources */,
 				716523262A4316E900DB4966 /* AppDataLayer.swift in Sources */,
+				7125944F2AA24AB000B1F092 /* Logger.swift in Sources */,
 				716522FE2A43108000DB4966 /* MainScenePresenterService.swift in Sources */,
 				716523312A43176B00DB4966 /* AppUILayerStyleWorker.swift in Sources */,
 				716523282A43170000DB4966 /* AppDataLayerType.swift in Sources */,
